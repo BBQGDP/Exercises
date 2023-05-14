@@ -72,7 +72,7 @@
 }
 
 html {
-	background-color: white;
+	background-color: #ffffff;
 }
 
 body {
@@ -153,6 +153,7 @@ section ul {
 section li {
 	padding-bottom: .35em;
 }
+
 section ul li {
 	list-style-type: circle;
 }
