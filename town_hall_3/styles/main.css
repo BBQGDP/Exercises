@@ -119,6 +119,25 @@ section ul {
 section li {
 	padding-bottom: .35em;
 }
+/*Table Styles*/
+table {
+	/* border: 1px solid black; */
+	border-collapse:collapse;
+}
+th, td {
+	padding: .2em;
+	text-align: right;
+}
+th.left, 
+td.left {
+text-align: left;
+}
+tr.border-top{
+	border-top: 2px solid #800000;
+}
+tr.border-bottom{
+	border-bottom: 2px solid #800000;
+}
 
 /* the styles for the article */
 article {
