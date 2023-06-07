@@ -1,6 +1,7 @@
 :root {
 	--global-color-1: #4d0080;
 }
+
 /* the styles for the elements */
 body {
 	font-family: Arial, Helvetica, sans-serif;
@@ -42,18 +43,16 @@ main h3 {
 	font-size: 105%;
 }
 
-a:focus, a:hover {
+a:focus,
+a:hover {
 	font-style: italic;
 }
-/* the styles for the footer */
+
 footer p {
 	text-align: center;
 }
-.shadow{
+
+.shadow {
 	text-shadow: 2px 2px 2px #800000;
 	text-shadow: 2rem;
 }
-/* This code was used to verify --global-color-1 was working */
-/* main h1{
-	 color: var(--global-color-1); 
-} */
